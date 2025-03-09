@@ -28,7 +28,7 @@ namespace GICBankingApp
                 return false;
             }
             
-            if (type != "D" && type != "W")
+            if (type != "D" && type != "W" && type != "I")
             {
                 Console.WriteLine("Invalid Account Type Transaction.");
                 return false;
